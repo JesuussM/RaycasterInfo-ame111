@@ -4,14 +4,13 @@
 
 #sidebar {
     background-color: transparent;
+    color: initial;
 }
 
-a, .btn-link {
-    color: #006bb7;
-}
 
-h1:focus {
-    outline: none;
+a {
+    color: initial;
+    text-decoration: none;
 }
 
 .valid.modified:not([type=checkbox]) {
