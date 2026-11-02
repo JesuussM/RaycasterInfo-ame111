@@ -1,13 +1,13 @@
-html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+#page {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#sidebar {
+    background-color: transparent;
 }
 
 a, .btn-link {
     color: #006bb7;
-}
-
-.content {
-    padding-top: 1.1rem;
 }
 
 h1:focus {

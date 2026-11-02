@@ -1,22 +1,20 @@
 ﻿@inherits LayoutComponentBase
 <RadzenComponents @rendermode="InteractiveAuto" />
 
-<RadzenLayout>
-    <RadzenHeader>
-        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center">
-            <div class="ps-3 pt-2">
-                <h1><strong>Raycaster Info</strong></h1>
-            </div>
-        </RadzenStack>
-    </RadzenHeader>
-    <RadzenBody>
+<RadzenLayout id="page">
+    <RadzenSidebar FullHeight="true" id="sidebar">
+        <RadzenPanelMenu id="sidebar">
+            <RadzenPanelMenuItem Text="01: INTRO"/>
+            <RadzenPanelMenuItem Text="02: WHAT"/>
+            <RadzenPanelMenuItem Text="03: HOW"/>
+            <RadzenPanelMenuItem Text="04: SEE"/>
+        </RadzenPanelMenu>
+    </RadzenSidebar>
+    <RadzenBody class="pt-0">
         <div class="content px-4">
             @Body
         </div>
     </RadzenBody>
-    <RadzenFooter>
-        Footer
-    </RadzenFooter>
 </RadzenLayout>
 
 <div id="blazor-error-ui" data-nosnippet>
