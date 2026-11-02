@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+<RadzenComponents @rendermode="InteractiveAuto" />
+
+<RadzenLayout>
+    <RadzenHeader>
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center">
+            <div class="ps-3 pt-2">
+                <h1><strong>Raycaster Info</strong></h1>
+            </div>
+        </RadzenStack>
+    </RadzenHeader>
+    <RadzenBody>
+        <div class="content px-4">
+            @Body
+        </div>
+    </RadzenBody>
+    <RadzenFooter>
+        Footer
+    </RadzenFooter>
+</RadzenLayout>
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>
