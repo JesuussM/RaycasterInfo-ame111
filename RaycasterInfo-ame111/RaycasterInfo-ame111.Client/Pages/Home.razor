@@ -34,7 +34,8 @@
 			</div>
 			<div class="col-8 fs-1">
 				Raycasting is a rendering technique that uses a 2D map to 
-				create a 3D perspective. It is essentially an illusion of 3D.
+				create a 3D perspective used in early video game development. 
+				It is essentially an illusion of 3D.
 			</div>
 		</div>
 	</div>
@@ -73,6 +74,74 @@
 				</span>
 				<img src="/Images/vrgaming-unsplash.png" class="img-fluid" />
 			</div>
+		</div>
+	</div>
+</div>
+<hr />
+
+<div class="row row-cols-auto align-items-center">
+	<RadzenIcon Icon="line_end_arrow" />
+	<p class="pt-3">HOW</p>
+</div>
+<div class="min-vh-100">
+	<div class="w-75 pb-4">
+		<h1>How does it work?</h1>
+	</div>
+	<div class="container-100 pb-3">
+		<div class="row">
+			<div class="col fs-1">
+				Imagine a 2D square grid, just like one from middle school, with an 
+				x-axis and a y-axis, and a player is a point on that grid. Imagine 
+				the grid has numbers in different squares. Raycasting works by 
+				getting the player's line of sight and shooting rays from the player 
+				until they hit an object; depending on the value it hits, it can tell 
+				the program whether that value is a wall, door, etc. The length of the 
+				ray can determine how far away that object is. 
+			</div>			
+		</div>
+		<div class="h6 mt-lg-5">
+			This is a very simplified explanation; in practice, it is much more 
+			complex and involves extensive calculus. If you wish to research more, here 
+			is a great resource: <a href="https://lodev.org/cgtutor/raycasting.html" target="_blank">Learn More</a>
+		</div>
+	</div>
+</div>
+<hr />
+
+<div class="row row-cols-auto align-items-center">
+	<RadzenIcon Icon="visibility" />
+	<p class="pt-3">SEE</p>
+</div>
+<div class="min-vh-100">
+	<div class="w-75 pb-4">
+		<h1>View this demo</h1>
+	</div>
+	<div class="container-100 pb-3">
+		<div class="row">
+			<div class="col d-flex justify-content-center">
+				<iframe width="560"
+						height="315"
+						src="https://www.youtube-nocookie.com/embed/vbs3hkYf614"
+						title="Raycaster demo video"
+						frameborder="0"
+						loading="lazy"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen>
+				</iframe>
+			</div>
+		</div>
+		<div class="h6 text-center">
+			<span>
+				"<a href="https://youtu.be/vbs3hkYf614?si=Q5NQOdFIQvsOFPiP" target="_blank">Raycaster Demo</a>" by Jesus Miranda Marquez (CC BY)
+			</span>
+		</div>
+		<div class="h6 mt-lg-5">
+			In the video, the image on the left shows the 2D map; you can see rays shooting from the player 
+			until they hit an object forming the field of view, while the image on the right shows the ray-cast image. Similar to the 
+			HOW section, imagine all the white squares have a value of 1, letting the program know, "This 
+			should be a red wall." Except for the one blue wall, which would have a different value to let 
+			the program know, "This should be a blue wall"
 		</div>
 	</div>
 </div>
