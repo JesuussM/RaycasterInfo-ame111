@@ -4,10 +4,10 @@
 <RadzenLayout id="page">
     <RadzenSidebar FullHeight="true" id="sidebar">
         <RadzenPanelMenu id="sidebar">
-            <RadzenPanelMenuItem Text="01: INTRO"/>
-            <RadzenPanelMenuItem Text="02: WHAT"/>
-            <RadzenPanelMenuItem Text="03: HOW"/>
-            <RadzenPanelMenuItem Text="04: SEE"/>
+            <RadzenPanelMenuItem Text="01: INTRO" Click="@(() => ScrollToSection("intro-section"))" />
+            <RadzenPanelMenuItem Text="02: WHAT" Click="@(() => ScrollToSection("what-section"))" />
+            <RadzenPanelMenuItem Text="03: HOW" Click="@(() => ScrollToSection("how-section"))" />
+            <RadzenPanelMenuItem Text="04: SEE" Click="@(() => ScrollToSection("see-section"))" />
         </RadzenPanelMenu>
     </RadzenSidebar>
     <RadzenBody class="pt-0">
